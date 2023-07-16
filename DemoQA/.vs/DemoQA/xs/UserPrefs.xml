@@ -1,30 +1,34 @@
 ﻿<Properties StartupConfiguration="{9D95DBA5-2079-43FC-807D-7F4EED30B7C1}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.DemoQA PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="UnitTest1.cs">
     <Files>
-      <File FileName="UnitTest1.cs" Line="51" Column="1" />
+      <File FileName="UnitTest1.cs" Line="174" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DemoQA" expanded="True">
-            <Node name="DemoQA" expanded="True" />
+          <Node name="DemoQA">
+            <Node name="DemoQA" selected="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="DemoQA" expanded="True">
-            <Node name="DemoQA" expanded="True" selected="True" />
+          <Node name="DemoQA">
+            <Node name="DemoQA" expanded="True">
+              <Node name="DemoQA" expanded="True">
+                <Node name="Tests" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>

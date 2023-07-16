@@ -8,10 +8,12 @@
     ".NETCoreApp,Version=v7.0": {
       "DemoQA/1.0.0": {
         "dependencies": {
-          "Microsoft.NET.Test.Sdk": "17.6.2",
+          "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
+          "Microsoft.NET.Test.Sdk": "17.6.3",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
           "NUnit3TestAdapter": "4.5.0",
+          "Selenium.Support": "4.10.0",
           "Selenium.WebDriver": "4.10.0",
           "Selenium.WebDriver.ChromeDriver": "114.0.5735.9000",
           "coverlet.collector": "6.0.0"
@@ -21,7 +23,18 @@
         }
       },
       "coverlet.collector/6.0.0": {},
-      "Microsoft.CodeCoverage/17.6.2": {
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {
+            "assemblyVersion": "3.11.0.0",
+            "fileVersion": "3.11.0.0"
+          }
+        }
+      },
+      "Microsoft.CodeCoverage/17.6.3": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
@@ -29,14 +42,14 @@
           }
         }
       },
-      "Microsoft.NET.Test.Sdk/17.6.2": {
+      "Microsoft.NET.Test.Sdk/17.6.3": {
         "dependencies": {
-          "Microsoft.CodeCoverage": "17.6.2",
-          "Microsoft.TestPlatform.TestHost": "17.6.2"
+          "Microsoft.CodeCoverage": "17.6.3",
+          "Microsoft.TestPlatform.TestHost": "17.6.3"
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "Microsoft.TestPlatform.ObjectModel/17.6.2": {
+      "Microsoft.TestPlatform.ObjectModel/17.6.3": {
         "dependencies": {
           "NuGet.Frameworks": "6.5.0",
           "System.Reflection.Metadata": "1.6.0"
@@ -136,9 +149,9 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/17.6.2": {
+      "Microsoft.TestPlatform.TestHost/17.6.3": {
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "17.6.2",
+          "Microsoft.TestPlatform.ObjectModel": "17.6.3",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
@@ -317,6 +330,17 @@
       },
       "NUnit.Analyzers/3.6.1": {},
       "NUnit3TestAdapter/4.5.0": {},
+      "Selenium.Support/4.10.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.10.0"
+        },
+        "runtime": {
+          "lib/net6.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "Selenium.WebDriver/4.10.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -345,19 +369,26 @@
       "path": "coverlet.collector/6.0.0",
       "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
     },
-    "Microsoft.CodeCoverage/17.6.2": {
+    "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-t+DjPlq7GIxIkOK/jiTmNeiEMVkfVCynBEZyV+IMg2ro43NugKExng+7a04R1fBLi+d6voxjeDxL2ozdl+XyVg==",
-      "path": "microsoft.codecoverage/17.6.2",
-      "hashPath": "microsoft.codecoverage.17.6.2.nupkg.sha512"
+      "sha512": "sha512-xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
+      "path": "dotnetseleniumextras.waithelpers/3.11.0",
+      "hashPath": "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512"
     },
-    "Microsoft.NET.Test.Sdk/17.6.2": {
+    "Microsoft.CodeCoverage/17.6.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+WFxuoFVBG0aewD9Psw+1I90kaRToQgMIzK20xNVRO4QRWR9Bou3qGefrZvMZ/xTC+6bAmZppFbpPbiHDzrPyg==",
-      "path": "microsoft.net.test.sdk/17.6.2",
-      "hashPath": "microsoft.net.test.sdk.17.6.2.nupkg.sha512"
+      "sha512": "sha512-Gorg6F1dOxlI28yHYKhbQ3pOOfHeW6sUfsmwFQFaIV+xttUAZ+l8KarHIfsR+rBAnjY9VH71BXvPXBuObCkXsw==",
+      "path": "microsoft.codecoverage/17.6.3",
+      "hashPath": "microsoft.codecoverage.17.6.3.nupkg.sha512"
+    },
+    "Microsoft.NET.Test.Sdk/17.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MglaNTl646dC2xpHKotSk1xscmHO5uV3x3NK057IUA9BM3Wgl16WMEb9ptGczk518JfLd1+Th5OAYwnoWgHQQQ==",
+      "path": "microsoft.net.test.sdk/17.6.3",
+      "hashPath": "microsoft.net.test.sdk.17.6.3.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -366,19 +397,19 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.ObjectModel/17.6.2": {
+    "Microsoft.TestPlatform.ObjectModel/17.6.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I3S/oELDAe/ckFltBnPb0PV+gADbpc8n0yGTtYfTd7q1hd0cAZKn/FrYoegA/rGws8fEFyJD/2PB6uq+nIjWsg==",
-      "path": "microsoft.testplatform.objectmodel/17.6.2",
-      "hashPath": "microsoft.testplatform.objectmodel.17.6.2.nupkg.sha512"
+      "sha512": "sha512-gSqtX3RvcFisaLPs6sKXdZkSwUix83NQ9nOU/w6pYrHTl+d8GsVHSL9rvDNxMgoV5BNOdyU7zK7JOfbSaVMDWQ==",
+      "path": "microsoft.testplatform.objectmodel/17.6.3",
+      "hashPath": "microsoft.testplatform.objectmodel.17.6.3.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.TestHost/17.6.2": {
+    "Microsoft.TestPlatform.TestHost/17.6.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WszrF1CoG+Y2bA4WJFxlaPADQCWUuNP6TCxVRuScmP6DQsNvDDuOO9XiUxCA+wPmNOSyWVh9EGrPu7JoUpf2gA==",
-      "path": "microsoft.testplatform.testhost/17.6.2",
-      "hashPath": "microsoft.testplatform.testhost.17.6.2.nupkg.sha512"
+      "sha512": "sha512-lrgRXKFfIZSPlhuoQGLtciO/osL+4oADYEYb0d5or7n7YyJATIWespq3lRgz2IQpRh6N7cm0DnCOWeZiCRGzxA==",
+      "path": "microsoft.testplatform.testhost/17.6.3",
+      "hashPath": "microsoft.testplatform.testhost.17.6.3.nupkg.sha512"
     },
     "NETStandard.Library/2.0.0": {
       "type": "package",
@@ -421,6 +452,13 @@
       "sha512": "sha512-s8JpqTe9bI2f49Pfr3dFRfoVSuFQyraTj68c3XXjIS/MRGvvkLnrg6RLqnTjdShX+AdFUCCU/4Xex58AdUfs6A==",
       "path": "nunit3testadapter/4.5.0",
       "hashPath": "nunit3testadapter.4.5.0.nupkg.sha512"
+    },
+    "Selenium.Support/4.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S/7nH+SMiCaut5C6kmMVxq4mCcmvwboPvPqdpx2/Dfwi2O9bFQb+psJC4ZcpvPMg7FCnrC1i6uZW6rthjSo1TQ==",
+      "path": "selenium.support/4.10.0",
+      "hashPath": "selenium.support.4.10.0.nupkg.sha512"
     },
     "Selenium.WebDriver/4.10.0": {
       "type": "package",

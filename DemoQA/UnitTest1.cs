@@ -1,12 +1,13 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 namespace DemoQA
 {
     public class Tests
     {
         IWebDriver driver;
-        [SetUp]
+        [OneTimeSetUp]
         public void Setup()
         {
             ChromeOptions options = new ChromeOptions();
@@ -18,7 +19,7 @@ namespace DemoQA
         }
 
         [Test]
-        public void  testingMenuOpeningsAndUrls()
+        public void testingMenuOpeningsAndUrls()
         {
             driver.Url = "https://demoqa.com/";
             Thread.Sleep(2000);
@@ -35,8 +36,8 @@ namespace DemoQA
             driver.Navigate().Back();
             Thread.Sleep(1000);
 
-            
-            
+
+
 
             //Forms page
             driver.FindElement(By.CssSelector("#app > div > div > div.home-body > div > div:nth-child(2)")).Click();
@@ -49,7 +50,7 @@ namespace DemoQA
             driver.Navigate().Back();
             Thread.Sleep(1000);
 
-            
+
 
             //AlertsWindows page
             driver.FindElement(By.CssSelector("#app > div > div > div.home-body > div > div:nth-child(3)")).Click();
@@ -74,7 +75,7 @@ namespace DemoQA
             driver.Navigate().Back();
             Thread.Sleep(1000);
 
-            
+
 
             //Interaction page
             driver.FindElement(By.CssSelector("#app > div > div > div.home-body > div > div:nth-child(5)")).Click();
@@ -103,7 +104,77 @@ namespace DemoQA
 
         }
 
-        [TearDown]
+        [Test]
+        public void elements_TextBoxFormRegistrationWithCorrectData()
+        {
+            driver.Url = "https://demoqa.com/";
+            Thread.Sleep(1000);
+
+            //Elements page
+            driver.FindElement(By.CssSelector("#app > div > div > div.home-body > div > div:nth-child(1)")).Click();
+            Thread.Sleep(1000);
+
+            IWebElement elementsOptions = driver.FindElement(By.CssSelector("#app > div > div > div.row > div:nth-child(1) > div > div > div:nth-child(1) > div > ul"));
+            bool textButtonShowed = elementsOptions.Displayed;
+            bool textButtonHidden = !elementsOptions.Displayed;
+
+            if (textButtonHidden)
+            {
+                driver.FindElement(By.CssSelector("#app > div > div > div.row > div:nth-child(1) > div > div > div:nth-child(1) > span > div")).Click();
+
+            }
+
+            driver.FindElement(By.Id("item-0")).Click();
+
+            string name = "Georgi Todorov";
+            string email = "georgiit98@gmail.com";
+            string currentAddress = "Burgas, Bulgaria";
+            string permanentAddress = "Burgas, Bulgaria";
+            //Filling the form data
+
+            driver.FindElement(By.Id("userName")).SendKeys(name);
+            driver.FindElement(By.Id("userEmail")).SendKeys(email);
+            driver.FindElement(By.Id("currentAddress")).SendKeys(currentAddress);
+            driver.FindElement(By.Id("permanentAddress")).SendKeys(permanentAddress);
+
+            //button with frame
+            IWebElement submitButton = driver.FindElement(By.Id("submit"));
+            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click();", submitButton);
+
+            Thread.Sleep(1000);
+
+            string actualStoredName = driver.FindElement(By.Id("name")).Text;
+            string actualStoredEmail = driver.FindElement(By.Id("email")).Text;
+            
+
+            // Wait for the "currentAddress" field to be visible
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            // Wait for the "currentAddress" field to be visible and enabled
+            IWebElement currentAddressField = wait.Until(ExpectedConditions.ElementIsVisible(By.Id("currentAddress")));
+            wait.Until(d => currentAddressField.Enabled && !string.IsNullOrEmpty(currentAddressField.GetAttribute("value")));
+
+            // Access the "currentAddress" field
+            string actualStoredCurrentAddress = currentAddressField.GetAttribute("value");
+
+
+            // permanent
+            IWebElement permanentAddressField = wait.Until(ExpectedConditions.ElementIsVisible(By.Id("permanentAddress")));
+            wait.Until(d => permanentAddressField.Enabled && !string.IsNullOrEmpty(currentAddressField.GetAttribute("value")));
+
+            // Access the "currentAddress" field
+            string actualStoredPermanentAddress = permanentAddressField.GetAttribute("value");
+
+            //test
+            Assert.That(actualStoredName.Contains(name));
+            Assert.That(actualStoredEmail.Contains(email));
+            Assert.That(actualStoredCurrentAddress.Contains(currentAddress));
+            Assert.That(actualStoredPermanentAddress.Contains(permanentAddress));
+        }
+
+
+
+
+        [OneTimeTearDown]
         public void TearDown()
         {
             driver.Quit();

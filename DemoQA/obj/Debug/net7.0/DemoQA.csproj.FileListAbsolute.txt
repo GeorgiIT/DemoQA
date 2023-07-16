@@ -203,3 +203,5 @@ C:/Users/vksbu/Desktop/лични/QA/DemoQA/DemoQA/DemoQA/obj/Debug/net7.0/ref/D
 /Users/georgi/Desktop/DemoQA/DemoQA/obj/Debug/net7.0/DemoQA.pdb
 /Users/georgi/Desktop/DemoQA/DemoQA/obj/Debug/net7.0/DemoQA.genruntimeconfig.cache
 /Users/georgi/Desktop/DemoQA/DemoQA/obj/Debug/net7.0/ref/DemoQA.dll
+/Users/georgi/Desktop/DemoQA/DemoQA/bin/Debug/net7.0/SeleniumExtras.WaitHelpers.dll
+/Users/georgi/Desktop/DemoQA/DemoQA/bin/Debug/net7.0/WebDriver.Support.dll
