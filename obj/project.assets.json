@@ -1114,11 +1114,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream:obj/project.assets.json
       "projectUniqueName": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA.csproj",
       "projectName": "DemoQA",
       "projectPath": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA.csproj",
       "packagesPath": "C:\\Users\\vksbu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA\\DemoQA.csproj",
+      "projectName": "DemoQA",
+      "projectPath": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA\\DemoQA.csproj",
+      "packagesPath": "C:\\Users\\vksbu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA\\obj\\",
+>>>>>>> Stashed changes:DemoQA/obj/project.assets.json
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vksbu\\AppData\\Roaming\\NuGet\\NuGet.Config",
