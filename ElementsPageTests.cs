@@ -311,7 +311,7 @@ namespace DemoQA
             driver.FindElement(By.CssSelector("#tree-node > ol > li > ol > li.rct-node.rct-node-parent.rct-node-expanded > ol > li:nth-child(1) > span > button")).Click();
 
             // Wait for the element to become invisible (hidden)
-            
+
             try
             {
                 filesInsideWorkSpaceFolder = wait.Until(ExpectedConditions.InvisibilityOfElementLocated(By.CssSelector("#tree-node > ol > li > ol > li.rct-node.rct-node-parent.rct-node-expanded > ol")));
@@ -397,7 +397,7 @@ namespace DemoQA
             driver.FindElement(By.CssSelector("#tree-node > ol > li > span > button")).Click();
             driver.FindElement(By.CssSelector("#tree-node > ol > li > ol > li:nth-child(1) > span > button")).Click();
             driver.FindElement(By.CssSelector("#tree-node > ol > li > ol > li:nth-child(2) > span > button")).Click();
-           
+
 
             driver.FindElement(By.CssSelector("#tree-node > ol > li > ol > li:nth-child(3) > span > button")).Click();
 
@@ -431,14 +431,18 @@ namespace DemoQA
             }
 
             //word file
-            IWebElement wordFile = driver.FindElement(By.CssSelector("#tree-node > ol > li > ol > li:nth-child(3) > ol > li:nth-child(1) > span > label > span.rct-checkbox > svg"));
-            isSelected = wordFile.Selected;
-            if (!isSelected)
-            {
-                wordFile.Click();
-            }
-            ////////////////////////////////////////////////////////////////////////////////////////////////////// TOOOO DOOOO error
 
+            // Scroll to the "wordFile" element
+            IWebElement wordFile = driver.FindElement(By.CssSelector("#tree-node > ol > li > ol > li:nth-child(3) > ol > li:nth-child(1) > span > label > span.rct-checkbox > svg"));
+            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", wordFile);
+
+            // Wait for the element to become clickable and then click it
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            IWebElement clickableWordFile = wait.Until(ExpectedConditions.ElementToBeClickable(wordFile));
+            clickableWordFile.Click();
+
+
+            //Tests
             IList<IWebElement> selectedFiles = driver.FindElements(By.ClassName("text-success"));
 
             Assert.That(selectedFiles[0].Text, Is.EqualTo("notes"));
@@ -453,10 +457,9 @@ namespace DemoQA
 
 
         [OneTimeTearDown]
-    public void TearDown()
-    {
-        driver.Quit();
-    }
-
+        public void TearDown()
+        {
+            driver.Quit();
+        }
     }
 }

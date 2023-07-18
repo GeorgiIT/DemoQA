@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream:obj/DemoQA.csproj.nuget.dgspec.json
     "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA.csproj",
         "packagesPath": "C:\\Users\\vksbu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\obj\\",
-=======
-    "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA\\DemoQA.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA\\DemoQA.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA\\DemoQA.csproj",
-        "projectName": "DemoQA",
-        "projectPath": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA\\DemoQA.csproj",
-        "packagesPath": "C:\\Users\\vksbu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vksbu\\Desktop\\лични\\QA\\DemoQA\\DemoQA\\DemoQA\\obj\\",
->>>>>>> Stashed changes:DemoQA/obj/DemoQA.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vksbu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
