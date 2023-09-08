@@ -1,7 +1,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.DevTools.V112.Page;
 using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.DevTools.V116.Page;
 using SeleniumExtras.WaitHelpers;
 namespace DemoQA
 {
@@ -14,7 +14,7 @@ namespace DemoQA
             ChromeOptions options = new ChromeOptions();
             options.BinaryLocation = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
             // for mac "/Users/georgi/Desktop/Google Chrome.app/Contents/MacOS/Google Chrome"
-            // for win "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+            // for win ""C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe""
             driver = new ChromeDriver(options);
             driver.Manage().Window.Maximize();
         }
@@ -493,59 +493,26 @@ namespace DemoQA
         }
 
         [Test]
-        public void webTablesAddingwithValidInformationTests()
+        public void Interactions_draggable_containerRestricted()
         {
             driver.Url = "https://demoqa.com/";
 
-            //Elements page
-            driver.FindElement(By.CssSelector("#app > div > div > div.home-body > div > div:nth-child(1)")).Click();
+            //Interactions page
+            driver.FindElement(By.CssSelector("#app > div > div > div.home-body > div > div:nth-child(5)")).Click();
             Thread.Sleep(1000);
 
-            IWebElement elementsOptions = driver.FindElement(By.CssSelector("#app > div > div > div.row > div:nth-child(1) > div > div > div:nth-child(1) > div > ul"));
+            IWebElement elementsOptions = driver.FindElement(By.CssSelector("#app > div > div > div.row > div:nth-child(1) > div > div > div:nth-child(5) > div > ul"));
 
             bool textButtonHidden = !elementsOptions.Displayed;
 
             if (textButtonHidden)
             {
-                driver.FindElement(By.CssSelector("#app > div > div > div.row > div:nth-child(1) > div > div > div:nth-child(1) > span > div")).Click();
+                driver.FindElement(By.CssSelector("#app > div > div > div.row > div:nth-child(1) > div > div > div:nth-child(5) > span > div")).Click();
 
             }
 
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            wait.Until(ExpectedConditions.ElementToBeClickable(By.Id("item-3"))).Click();
-            driver.FindElement(By.Id("addNewRecordButton")).Click();
-
-            driver.FindElement(By.Id("firstName")).SendKeys("Georgi");
-            driver.FindElement(By.Id("lastName")).SendKeys("Todorov");
-            driver.FindElement(By.Id("userEmail")).SendKeys("georgiit98@gmail.com");
-            driver.FindElement(By.Id("age")).SendKeys("25");
-            driver.FindElement(By.Id("salary")).SendKeys("2500");
-            driver.FindElement(By.Id("department")).SendKeys("QA");
-
-            driver.FindElement(By.Id("submit")).Click();
-
-         
-
-            string infoFromTable = driver.FindElement(By.CssSelector("#app > div > div > div.row > div.col-12.mt-4.col-md-6 > div.web-tables-wrapper > div.ReactTable.-striped.-highlight > div.rt-table > div.rt-tbody > div:nth-child(4) > div")).Text;
-            
-
-            string[] rowData = infoFromTable.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
-
-            // Trim each value in the rowData array to remove leading and trailing spaces
-            string firstName = rowData[0].Trim();
-            string lastName = rowData[1].Trim();
-            string age = rowData[2].Trim();
-            string email = rowData[3].Trim();
-            string salary = rowData[4].Trim();
-            string department = rowData[5].Trim();
-
-            Assert.That(firstName, Is.EqualTo("Georgi"));
-            Assert.That(lastName, Is.EqualTo("Todorov"));
-            Assert.That(email, Is.EqualTo("georgiit98@gmail.com"));
-            Assert.That(age, Is.EqualTo("25"));
-            Assert.That(salary, Is.EqualTo("2500"));
-            Assert.That(department, Is.EqualTo("QA"));
-
+            driver.FindElement(By.CssSelector("#item-4 > svg")).Click();
+            driver.FindElement(By.Id("draggableExample-tab-containerRestriction")).Click();
         }
         
 
