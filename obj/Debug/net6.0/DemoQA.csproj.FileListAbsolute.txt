@@ -214,3 +214,4 @@ C:\Personal\DemoQA\obj\Debug\net6.0\refint\DemoQA.dll
 C:\Personal\DemoQA\obj\Debug\net6.0\DemoQA.pdb
 C:\Personal\DemoQA\obj\Debug\net6.0\DemoQA.genruntimeconfig.cache
 C:\Personal\DemoQA\obj\Debug\net6.0\ref\DemoQA.dll
+C:\Personal\DemoQA\obj\Debug\net6.0\DemoQA.sourcelink.json

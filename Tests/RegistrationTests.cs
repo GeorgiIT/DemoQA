@@ -5,27 +5,15 @@ using NUnit.Framework;
 using OpenQA.Selenium.Support.UI;
 using WebDriverManager.DriverConfigs.Impl;
 using WebDriverManager;
+using DemoQA.Source.Drivers;
 
 
 namespace DemoQA.Tests
 {
-    public class RegistrationPageTests
+    public class RegistrationPageTests : Driver
     {
         private IWebDriver _driver;
         private string _url = "https://demoqa.com/register";
-
-        [OneTimeSetUp]
-        public void Setup()
-        {
-            new DriverManager().SetUpDriver(new ChromeConfig());
-            _driver = new ChromeDriver();
-        }
         // I need to find a way to deal with CAPTCHA
-
-        [OneTimeTearDown]
-        public void TearDown()
-        {
-            _driver.Dispose();
-        }
     }
 }

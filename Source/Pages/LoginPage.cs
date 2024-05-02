@@ -1,11 +1,12 @@
 ﻿using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
+using DemoQA.Source.Drivers;
 
 namespace DemoQA.Source.Pages
 {
-    public class LoginPage
+    public class LoginPage : Driver
     {
-        private IWebDriver _driver;
+        private IWebDriver _webDriver;
 
         [FindsBy(How = How.Id, Using = "newUser")]
         private IWebElement _newUserBtn;
@@ -18,10 +19,9 @@ namespace DemoQA.Source.Pages
         [FindsBy(How = How.Id, Using = "output")]
         private IWebElement _outputMsg;
 
-        public LoginPage(IWebDriver driver)
+        public LoginPage()
         {
-            _driver = driver;
-            PageFactory.InitElements(driver, this);
+            PageFactory.InitElements(_driver, this);
         }
 
         
@@ -31,7 +31,7 @@ namespace DemoQA.Source.Pages
             _passwordInputField.SendKeys(password);
 
             _loginBtn.Click();
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
 
             return _outputMsg.Text;
         }

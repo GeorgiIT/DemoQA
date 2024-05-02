@@ -5,12 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DemoQA.Source.Drivers;
 
 namespace DemoQA.Source.Pages
 {
-    public class RegistrationPage
+    public class RegistrationPage : Driver
     {
-        private IWebDriver _driver;
+        private IWebDriver _webDriver;
         [FindsBy(How = How.Id, Using = "firstname")]
         private IWebElement _firstNameInputField;
         [FindsBy(How = How.Id, Using = "lastname")]
@@ -27,10 +28,9 @@ namespace DemoQA.Source.Pages
         [FindsBy(How = How.Id, Using = "recaptcha-anchor")]
         private IWebElement _imNotARobotCheckBoxBtn;
 
-        public RegistrationPage(IWebDriver driver)
+        public RegistrationPage()
         {
-            _driver = driver;
-            PageFactory.InitElements(driver, this);
+            PageFactory.InitElements(_driver, this);
         }
         public void Registration(string username, string password, string firstName, string lastName)
         {

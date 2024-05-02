@@ -5,12 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DemoQA.Source.Drivers;
 
 namespace DemoQA.Source.Pages
 {
-    public class ProfilePage
+    public class ProfilePage : Driver
     {
-        private IWebDriver _driver;
+        private IWebDriver _webDriver;
 
         [FindsBy(How = How.Id, Using = "searchBox")]
         private IWebElement _searchTextBox;
