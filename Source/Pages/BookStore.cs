@@ -11,7 +11,6 @@ namespace DemoQA.Source.Pages
 {
     public class BookStore : Driver
     {
-        private IWebDriver _webDriver;
 
         [FindsBy(How = How.Id, Using = "searchBox")]
         private IWebElement _searchTextBox;

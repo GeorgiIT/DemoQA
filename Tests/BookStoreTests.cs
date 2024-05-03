@@ -10,7 +10,6 @@ namespace DemoQA.Tests
     [Parallelizable(ParallelScope.All)]
     public class BookStoreTests : Driver
     {
-        private IWebDriver _webDriver;
         private string _url = "https://demoqa.com/books";
 
         // TO DO more tests

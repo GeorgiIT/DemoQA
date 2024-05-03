@@ -6,7 +6,6 @@ namespace DemoQA.Source.Pages
 {
     public class LoginPage : Driver
     {
-        private IWebDriver _webDriver;
 
         [FindsBy(How = How.Id, Using = "newUser")]
         private IWebElement _newUserBtn;

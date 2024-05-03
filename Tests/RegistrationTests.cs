@@ -12,7 +12,6 @@ namespace DemoQA.Tests
 {
     public class RegistrationPageTests : Driver
     {
-        private IWebDriver _driver;
         private string _url = "https://demoqa.com/register";
         // I need to find a way to deal with CAPTCHA
     }

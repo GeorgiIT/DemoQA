@@ -12,7 +12,6 @@ namespace DemoQA.Source.Pages
     public class HomePage : Driver
     {
         private string _url = "https://demoqa.com/";
-        private IWebDriver _webDriver;
         public HomePage()
         {
             PageFactory.InitElements(_driver, this);

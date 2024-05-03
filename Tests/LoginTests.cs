@@ -15,7 +15,7 @@ namespace DemoQA.Tests
     [Parallelizable(ParallelScope.All)]
     public class LoginTests : Driver
     {
-        private IWebDriver _webDriver;
+
         private string _url = "https://demoqa.com/login";
         private string profileURL = "https://demoqa.com/profile";
 

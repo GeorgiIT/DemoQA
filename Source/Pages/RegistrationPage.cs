@@ -11,7 +11,6 @@ namespace DemoQA.Source.Pages
 {
     public class RegistrationPage : Driver
     {
-        private IWebDriver _webDriver;
         [FindsBy(How = How.Id, Using = "firstname")]
         private IWebElement _firstNameInputField;
         [FindsBy(How = How.Id, Using = "lastname")]
