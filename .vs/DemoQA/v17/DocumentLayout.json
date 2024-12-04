@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DemoQA\\DemoQA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|d:\\demoqa\\demoqa\\tests\\book store tests\\elementslogintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:tests\\book store tests\\elementslogintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|d:\\demoqa\\demoqa\\pages\\book storepages\\elementslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:pages\\book storepages\\elementslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ElementsLoginTests.cs",
+              "DocumentMoniker": "D:\\DemoQA\\DemoQA\\Tests\\Book Store Tests\\ElementsLoginTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Book Store Tests\\ElementsLoginTests.cs",
+              "ToolTip": "D:\\DemoQA\\DemoQA\\Tests\\Book Store Tests\\ElementsLoginTests.cs",
+              "RelativeToolTip": "Tests\\Book Store Tests\\ElementsLoginTests.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:36:31.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ElementsLogin.cs",
+              "DocumentMoniker": "D:\\DemoQA\\DemoQA\\Pages\\Book StorePages\\ElementsLogin.cs",
+              "RelativeDocumentMoniker": "Pages\\Book StorePages\\ElementsLogin.cs",
+              "ToolTip": "D:\\DemoQA\\DemoQA\\Pages\\Book StorePages\\ElementsLogin.cs",
+              "RelativeToolTip": "Pages\\Book StorePages\\ElementsLogin.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:12:24.857Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

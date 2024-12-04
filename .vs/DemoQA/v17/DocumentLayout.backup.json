@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\tests\\widgets tests\\tabstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:tests\\widgets tests\\tabstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\tests\\browser windows\\frametests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:tests\\browser windows\\frametests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\pages\\alertswindows\\framepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:pages\\alertswindows\\framepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\pages\\forms\\formspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:pages\\forms\\formspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\tests\\forms tests\\formstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:tests\\forms tests\\formstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\tests\\elements tests\\elementsbrokenlinkstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:tests\\elements tests\\elementsbrokenlinkstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\tests\\browser windows\\nestedframetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:tests\\browser windows\\nestedframetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\pages\\alertswindows\\nestedframespage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:pages\\alertswindows\\nestedframespage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\pages\\elements pages\\elementsbrokenlinkspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:pages\\elements pages\\elementsbrokenlinkspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\pages\\elements pages\\elementsbuttonspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:pages\\elements pages\\elementsbuttonspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\tests\\elements tests\\elementsbuttonstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:tests\\elements tests\\elementsbuttonstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\tests\\widgets tests\\tooltipstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:tests\\widgets tests\\tooltipstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\pages\\widgets pages\\elementstooltips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:pages\\widgets pages\\elementstooltips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|c:\\users\\fhassan\\source\\repos\\demoqa\\tests\\widgets tests\\menutests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AAFEE-3B53-4DB3-8FC2-48B4EBA10A44}|DemoQA.csproj|solutionrelative:tests\\widgets tests\\menutests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TabsTests.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Widgets Tests\\TabsTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Widgets Tests\\TabsTests.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Widgets Tests\\TabsTests.cs",
+              "RelativeToolTip": "Tests\\Widgets Tests\\TabsTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:31:46.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FramePage.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\AlertsWindows\\FramePage.cs",
+              "RelativeDocumentMoniker": "Pages\\AlertsWindows\\FramePage.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\AlertsWindows\\FramePage.cs",
+              "RelativeToolTip": "Pages\\AlertsWindows\\FramePage.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:30:42.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormsTests.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Forms Tests\\FormsTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Forms Tests\\FormsTests.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Forms Tests\\FormsTests.cs",
+              "RelativeToolTip": "Tests\\Forms Tests\\FormsTests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:29:37.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrameTests.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Browser Windows\\FrameTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Browser Windows\\FrameTests.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Browser Windows\\FrameTests.cs",
+              "RelativeToolTip": "Tests\\Browser Windows\\FrameTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:54:04.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NestedFrameTest.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Browser Windows\\NestedFrameTest.cs",
+              "RelativeDocumentMoniker": "Tests\\Browser Windows\\NestedFrameTest.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Browser Windows\\NestedFrameTest.cs",
+              "RelativeToolTip": "Tests\\Browser Windows\\NestedFrameTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:53:36.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NestedFramesPage.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\AlertsWindows\\NestedFramesPage.cs",
+              "RelativeDocumentMoniker": "Pages\\AlertsWindows\\NestedFramesPage.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\AlertsWindows\\NestedFramesPage.cs",
+              "RelativeToolTip": "Pages\\AlertsWindows\\NestedFramesPage.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:53:19.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ElementsBrokenLinksPage.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\Elements Pages\\ElementsBrokenLinksPage.cs",
+              "RelativeDocumentMoniker": "Pages\\Elements Pages\\ElementsBrokenLinksPage.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\Elements Pages\\ElementsBrokenLinksPage.cs",
+              "RelativeToolTip": "Pages\\Elements Pages\\ElementsBrokenLinksPage.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwC0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:46:43.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ElementsBrokenLinksTests.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Elements Tests\\ElementsBrokenLinksTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Elements Tests\\ElementsBrokenLinksTests.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Elements Tests\\ElementsBrokenLinksTests.cs",
+              "RelativeToolTip": "Tests\\Elements Tests\\ElementsBrokenLinksTests.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:46:26.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormsPage.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\Forms\\FormsPage.cs",
+              "RelativeDocumentMoniker": "Pages\\Forms\\FormsPage.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\Forms\\FormsPage.cs*",
+              "RelativeToolTip": "Pages\\Forms\\FormsPage.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwDcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:31:32.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ElementsButtonsPage.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\Elements Pages\\ElementsButtonsPage.cs",
+              "RelativeDocumentMoniker": "Pages\\Elements Pages\\ElementsButtonsPage.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\Elements Pages\\ElementsButtonsPage.cs",
+              "RelativeToolTip": "Pages\\Elements Pages\\ElementsButtonsPage.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAADsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:42:52.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ElementsButtonsTests.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Elements Tests\\ElementsButtonsTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Elements Tests\\ElementsButtonsTests.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Elements Tests\\ElementsButtonsTests.cs",
+              "RelativeToolTip": "Tests\\Elements Tests\\ElementsButtonsTests.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:42:27.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ElementsToolTips.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\Widgets pages\\ElementsToolTips.cs",
+              "RelativeDocumentMoniker": "Pages\\Widgets pages\\ElementsToolTips.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Pages\\Widgets pages\\ElementsToolTips.cs",
+              "RelativeToolTip": "Pages\\Widgets pages\\ElementsToolTips.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwCIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:39:22.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ToolTipsTests.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Widgets Tests\\ToolTipsTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Widgets Tests\\ToolTipsTests.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Widgets Tests\\ToolTipsTests.cs",
+              "RelativeToolTip": "Tests\\Widgets Tests\\ToolTipsTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:38:41.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuTests.cs",
+              "DocumentMoniker": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Widgets Tests\\MenuTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Widgets Tests\\MenuTests.cs",
+              "ToolTip": "C:\\Users\\fhassan\\source\\repos\\DemoQA\\Tests\\Widgets Tests\\MenuTests.cs",
+              "RelativeToolTip": "Tests\\Widgets Tests\\MenuTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:34:28.973Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
